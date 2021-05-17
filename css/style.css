@@ -1,123 +1,148 @@
-/* header */
-.header-bg {
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* section-1 */
+.section1-bg {
     background-image: url(../images/bg.jpg);
-    height: 852px;
-    /* max-width: 1920px; */
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
-.box-wraper {
-   display: flex;
-   width: 100%;
+.section1-box-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; 
 }
-.right-box {
+.section1-left-box {
+    margin-top: 43px;   
+}
+.section1-image {
+    max-width: 809px;
     width: 100%;
+}
+.section1-right-box {
     color: #FFFFFF;
     margin-left: 43px;
+}
+.section1-title {
+    max-width: 436px;
+    width: 100%;
+    font-size: 47px;
     margin-top: 354px;
+    margin-bottom: 63.5px;
 }
-.left-box {
-    margin-top: 43px;
-    margin-left: 0;
-    max-width: 809px;
-    width: 100%;
-}
-.header-image {
-    max-width: 809px;
-    width: 100%;
-}
-.header-title {
-   max-width: 436px;
-   width: 100%;
-   font-size: 47px;
-   margin-bottom: 63.5px;
-
-}
-.header-text {
-    max-width: 449px;
+.section1-text {
+    max-width: 436px;
     width: 100%;
     font-size: 20px;
 }
-.header-text p {
-    margin-bottom: 30px;
+.section1-text p {
+    margin-bottom: 20px;
 }
 
-/* section-1 */
-.container-1 {
-    width: 100%;
-    text-align: center;
-}
-.container-title {
-    margin-top: 126px;
-    margin-bottom: 46px;
-    color: #A80E0E;
-    font-size: 40px;
-}
-.container-text {
-    margin-bottom: 126px;
-}
 /* section-2 */
-.container-2 {
+.section2 {
+    margin: 0 auto;    
+    max-width: 1447px;
+    width: 100%;
+}
+.section2 h3 {
+   text-align: center;
+   color: #A80E0E;
+   font-size: 40px;
+   margin-top: 100px;
+}
+.text-top {
+   font-size: 20px;
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 90px;
+}
+.block-1,
+.block-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    margin-left: 235px;
+    -ms-flex-pack: distribute; 
+    justify-content: space-between;  
+}
+
+.box-1 {
     margin-bottom: 56px;
 }
-
-.container-2-text{
+.image {
+    max-width: 444px;
+    width: 100%;
+    padding: 10px;
+}
+.box-1-text {
     margin-top: 70.5px;
     margin-left: 36px;
+    margin-bottom: 30px;
 }
-.container-2-text h4 {
-    font-size: 32px;
+
+.box-1-text h4 {
+    font-size: 22px;
     margin-bottom: 10px;
 }
-.container-2-text p {
+.box-1-text p {
     font-size: 16px;
-    margin-bottom: 30px;
-} 
-.botton {
+}
+.button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 36px;
+}
+.button-text {
     background-color: #FFAA00;
     width: 164px;
     height: 40px;
     border-radius: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: #FFFFFF;
     font-size: 14px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 36px;
-    margin-right: 20px;
-    
-}
-
-.botton-wraper {
-    display: flex;
-    margin-bottom: 33px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;    
 }
 .prise {
     margin-top: 10px;
     color: #A80E0E;
     font-size: 22px;
-}
-.block-1 {
-    margin-right: 58px;
+    margin-left: 12px;
 }
 
-/* section-4 */
-
-.botton-2 {
+.button-2 {
     background-color: #A80E0E;
     width: 255px;
     height: 68px;
     border-radius: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: #FFFFFF;
     font-size: 18px;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 auto;
     margin-bottom: 126px;
-    
+    margin-top: 50px;
 }
+
+
